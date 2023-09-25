@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,500;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: rgb(39,0,50);
+background: radial-gradient(circle, rgba(39,0,50,1) 0%, rgba(0,0,0,1) 100%);
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/*adicional*/
+
+.gradientP{
+  background: rgb(39,0,50);
+background: radial-gradient(circle, rgba(39,0,50,1) 0%, rgba(75,0,52,1) 100%);
+}
+
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+.gradiente2{
+  background: rgb(127,0,163);
+background: linear-gradient(90deg, rgba(127,0,163,1) 0%, rgba(1,5,122,1) 100%);
+/* Primera sombra */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+/* Segunda sombra */
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+/* Tercera sombra */
+box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+
